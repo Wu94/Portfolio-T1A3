@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en" class="page">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeremy Wu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="carousel.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script> scr="sticky.js"</script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <span id="navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        
+        <ul>
+            <h1 id="logo">Jeremy Wu</h1>
+            <a href="https://twitter.com/JeremyW56143702"><img class="link_icon_resize" src="Images/twitter50px.png"></a>
+            <a href="https://www.linkedin.com/in/jeremy-wu-781528150/"><img class="link_icon_resize" src="Images/linkedin50px.png"></a>
+            <a href="https://github.com/Wu94"><img class="link_icon_resize" src="Images/GitHub-Mark-Light-50px.png"></a>  
+        </ul>
+
+        <ul id="main-nav">
+          <li><a href="Biography.html" class="nav-links">Biography</a></li>
+          <li><a href="Education.html" class="nav-links">Education</a></li>
+          <li><a href="PastEmployment.html" class="nav-links">Past Employment</a></li>
+          <li><a href="Hobbies.html" class="nav-links">Hobbies</a></li>
+          <li><a href="https://medium.com/@wu_jeremy94" class="nav-links">My Blog</a></li>
+          <li><a href="#Contact Me" class="nav-links">Contact Me</a></li>
+      </ul>
+    </nav>
+    <script src="hamburger.js"></script>
+    
+    <div class="slideshow-container">
+    
+    <div id="firstSlide" class="mySlides">
+        <p class="slidetitle">Education</p>
+        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Exercitationem pariatur alias laudantium. Assumenda explicabo 
+            magni eos blanditiis maiores tempora, neque, ex soluta debitis 
+            eaque non voluptatibus labore impedit ea et.</q>
+    </div>
+    
+    <div class="mySlides">
+        <p class="slidetitle">Past Employment</p>
+        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Exercitationem pariatur alias laudantium. Assumenda explicabo 
+            magni eos blanditiis maiores tempora, neque, ex soluta debitis 
+            eaque non voluptatibus labore impedit ea et..</q>
+    </div>
+    
+    <div class="mySlides">
+        <p class="slidetitle">Hobbies</p>
+        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Exercitationem pariatur alias laudantium. Assumenda explicabo 
+            magni eos blanditiis maiores tempora, neque, ex soluta debitis 
+            eaque non voluptatibus labore impedit ea et.</q>
+    </div>
+
+    <div class="mySlides">
+        <p class="slidetitle">Biography</p>
+        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Exercitationem pariatur alias laudantium. Assumenda explicabo 
+            magni eos blanditiis maiores tempora, neque, ex soluta debitis 
+            eaque non voluptatibus labore impedit ea et.</q>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+    
+    <div class="container">
+          <div style="text-align:center">
+            <h2 id="Contact Me">Contact Me</h2>
+          </div>
+          <div class="row">
+        
+            <div class="column">
+                <img src=Images/me.png>
+              </div>
+        
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Name">
+                <label for="lname">Subject</label>
+                <input type="text" id="lname" name="lastname" placeholder="Subject">
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Hey, what ya need" style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+</body>
+
+</html>

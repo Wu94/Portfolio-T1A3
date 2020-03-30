@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+  background: #131414;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+.link_icon_resize {
+  margin-right: 5px;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    font-size: 20px;
+    background: black;
+}
+
+#main-nav {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+}
+
+#main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.nav-links,#logo {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#logo:hover,.nav-links:hover {
+    color: silver;
+}
+
+#logo {
+    display: inline-block;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+#navbar-toggle {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+#navbar-toggle:hover {
+    color: silver;
+}
+
+  .active {
+    display: block;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    margin-top: 50px;
+    position: relative;
+    background: #181A1B;
+  }
+  
+/* Slides */
+#firstSlide {
+    display: block;
+}
+
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+  
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: black;
+    color: white;
+}
+  
+/* The dot/bullet/indicator container */
+.dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #131414;
+}
+  
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+    background-color: #717171;
+}
+  
+  
+.slidetitle {color: cornflowerblue;}
+
+
+@media screen and (min-width: 1360px) {
+
+    .link_icon_resize {
+      margin-right: 10px;
+      max-width: 50px;
+      max-height: 50px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 120px;
+      align-items: center;
+      font-size: 18px;
+    }
+
+    #main-nav {
+      display: flex !important;
+      margin-right: 20px;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    #main-nav li {
+      margin: 0;
+    }
+
+    .nav-links {
+      margin-left: 20px;
+    }
+
+    #logo {
+      margin-top: 0px;
+      margin-left: 40px;
+      margin-right: 100px;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 50px;
+    }
+
+    #navbar-toggle {
+      display: none;
+    }
+
+  }  
+  
+  h2 {
+      text-align: center;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: silver;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: silver;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #131414;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

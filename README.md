@@ -1,3 +1,4 @@
+Jeremy Wu T1A3 Portfolio Project
 Portfolio: https://wu94.github.io/ 
 Github: https://github.com/Wu94/Wu94.github.io
 
@@ -11,4 +12,4 @@ Screenshots
 
 Target audience
 
-Tech stack (e.g. html, css, deployment platform, etc)
+Tech Stack: HTML, CSS, JS

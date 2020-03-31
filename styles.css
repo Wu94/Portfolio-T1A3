@@ -148,8 +148,14 @@ body {
   color: silver;
   font-weight: bold;
   font-size: 28px;
-  text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 8px;
 }
 
 

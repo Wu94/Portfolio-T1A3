@@ -89,8 +89,7 @@ body {
 .mySlides {
     display: none;
     padding: 80px;
-    text-align: justify;
-}
+  }
   
 /* Next & previous buttons */
 .prev, .next {
@@ -144,7 +143,7 @@ body {
     background-color: #717171;
 }
   
-.slidetitle {
+h3 {
   color: silver;
   font-weight: bold;
   font-size: 28px;
@@ -156,6 +155,10 @@ h4 {
   font-size: 18px;
   margin-top: 5px;
   margin-bottom: 8px;
+}
+
+p {
+  text-align: justify;
 }
 
 

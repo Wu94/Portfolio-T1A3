@@ -12,7 +12,7 @@ The purpose of this assignment is to design, develop and deploy a website that s
 
 When designing the portfolio, I wanted a minimalistic design that would display all the information that the user would need on the first page. 
 
-![](/README Images/website.png)
+![Website](Docs/website.png)
 
 ### Navigation Bar
 

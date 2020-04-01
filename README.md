@@ -78,6 +78,8 @@ Image
 
 ## Colours & Fonts
 
+To decide on a colour scheme for the website, I used http://colormind.io/ which allowed me to cycle through an assortment of colour palettes until I was happy with the colours with the example website template preview that they have on the site. For the fonts, I used Google Fonts, which has a whole library of different fonts, shows examples of the fonts used in a paragraph or title and also generates the html link and CSS code needed to implement the font on the portfolio.    
+
 ## Task Checklist
 
 I used a task checklist to create deadlines of each part of the project, as it is useful for time management.

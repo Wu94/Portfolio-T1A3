@@ -10,11 +10,22 @@ The purpose of this assignment is to design, develop and deploy a website that s
 
 ## Functionality / features
 
-Sitemap
+## Sitemap
 
-Screenshots
+## Target Audience
 
-Target audience
+## Design Inspiration
 
-Tech Stack: HTML, CSS, JS
+## Wireframes
+
+## Colours & Fonts
+
+## Tech Stack
+
+- HTML 
+- CSS 
+- Javascript 
+- Git 
+- Github 
+- Github Pages
 

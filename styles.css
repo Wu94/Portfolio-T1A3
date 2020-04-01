@@ -248,3 +248,11 @@ input[type=submit]:hover {
       margin-top: 0;
     }
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  background-color: black;
+}

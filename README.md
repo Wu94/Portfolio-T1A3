@@ -70,7 +70,7 @@ Wireframes were used to create a mockup layout of the website before the coding 
 
 ### Final Design
 
-![Design](Docs/finaldesign.png)
+![Design](Docs/Finaldesign.png)
 
 ### Mobile Verison
 

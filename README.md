@@ -62,9 +62,27 @@ Before designing the portfolio website, i went various different websites to gai
 
 ## Wireframes
 
+Wireframes were used to create a mockup layout of the website before the coding stage began as it was useful to have a visual of what I wanted the Portfolio to look like.
+
+### First Design
+
+Image
+
+### Final Design
+
+Image
+
+### Mobile Verison
+
+Image
+
 ## Colours & Fonts
 
 ## Task Checklist
+
+I used a task checklist to create deadlines of each part of the project, as it is useful for time management.
+
+Image
 
 ## Tech Stack
 

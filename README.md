@@ -44,13 +44,27 @@ Image 1-2
 
 ## Sitemap
 
+Image of Sitemap
+
 ## Target Audience
 
+This website would be for employers that are looking to hire a developer or a IT professional. Things an employer would look for in a portfolio would be a CV, which is linked in my Linkedin profile, past and present projects which I have my Github profile linked and general information about me and a way to contact me. 
+
 ## Design Inspiration
+
+Before designing the portfolio website, i went various different websites to gain inspiration and design ideas. List of websites below:
+
+- https://www.awwwards.com/
+- https://dribbble.com/
+- https://webflow.com/blog/web-design-inspiration
+- https://www.webdesign-inspiration.com/
+- https://www.pinterest.com.au/impaigebrunton/website-design-inspiration/ 
 
 ## Wireframes
 
 ## Colours & Fonts
+
+## Task Checklist
 
 ## Tech Stack
 
